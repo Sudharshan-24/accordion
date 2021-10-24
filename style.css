@@ -1,0 +1,23 @@
+.container {
+    background-color: #edf6f9;
+    color: black;
+    cursor: pointer;
+    font-size: 15px;
+    padding: 10px;
+    border: none;
+    text-align: left;
+    width: 100%;
+    outline: none;
+    transition: 0.4s;
+}
+
+.active, .container:hover {
+    background-color: #e9ecef;
+}
+
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: #fffffc;
+    overflow: hidden;
+}
